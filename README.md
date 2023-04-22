@@ -1,4 +1,6 @@
-# OlNg
+# OL-NG
+
+Testing Openlayers functionality to swipe visibility of data layers.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
 
