@@ -1,3 +1,4 @@
+import { MapComponent } from './map/map.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -8,7 +9,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MapComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
