@@ -106,16 +106,16 @@ export class MapComponent implements AfterViewInit {
           const width = mapSize[0] * swipeRatio;
 
           // Swipe on right
-          const tl = getRenderPixel(event, [width, 0]);
-          const tr = getRenderPixel(event, [mapSize[0], 0]);
-          const bl = getRenderPixel(event, [width, mapSize[1]]);
-          const br = getRenderPixel(event, mapSize);
+          // const tl = getRenderPixel(event, [width, 0]);
+          // const tr = getRenderPixel(event, [mapSize[0], 0]);
+          // const bl = getRenderPixel(event, [width, mapSize[1]]);
+          // const br = getRenderPixel(event, mapSize);
 
           // Swipe on left
-          // const tl = getRenderPixel(event, [0, 0]);
-          // const tr = getRenderPixel(event, [width, 0]);
-          // const bl = getRenderPixel(event, [0, mapSize[1]]);
-          // const br = getRenderPixel(event, [width, mapSize[1]]);
+          const tl = getRenderPixel(event, [0, 0]);
+          const tr = getRenderPixel(event, [width, 0]);
+          const bl = getRenderPixel(event, [0, mapSize[1]]);
+          const br = getRenderPixel(event, [width, mapSize[1]]);
 
           // Swipe on top
           // const tl = getRenderPixel(event, [0, 0]);
